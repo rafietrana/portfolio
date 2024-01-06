@@ -2,7 +2,42 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .container{
     max-width: 1024px;
     margin: auto;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* header css start */
+.dflex{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    padding: 30px 0;
+    background-color: #FFF8F3;
+}
+.header-right{}
+.header-right ul{
+    align-items: center;
+}
+.header-right ul li{
+    list-style: none;
+    padding:0 10px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color:black;
+
+    
+}
+
