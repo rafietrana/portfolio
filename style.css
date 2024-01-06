@@ -40,4 +40,49 @@ header{
 
     
 }
+/* banner css start */
 
+.banner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-right img {
+    width: 500px;
+    position: relative;
+    left: 168px;
+}
+
+.banner{
+    background: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
+    background-color: #FFF8F3;
+    
+}
+.text-center{
+    text-align: center;
+}
+.banner-left-content button{
+    margin-top: 5px;
+}
+/* banner css end */
+/* about me css start */
+.about-content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FFF8F3;
+    padding: 70px;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-info-content{
+    padding: 10px 20px;
+}
